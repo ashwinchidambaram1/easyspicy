@@ -12,7 +12,7 @@ class User < ApplicationRecord
 	validates(:state, presence: true, length: { maximum: 20})
 	validates(:cardtype, presence: true, length: { maximum: 15 })
 	validates(:expmonth, presence: true, length: { maximum: 15 })
-	validates(:expyear, presence: true, length: { maximum: 4 })
+	validates(:expyear, presence: true)
 	validates(:cardnum, presence: true, length: { maximum: 15 })
 	has_secure_password
 	validates :password, presence: true, length: { minimum: 6 }
