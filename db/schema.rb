@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161019175953) do
+ActiveRecord::Schema.define(version: 20161031051519) do
 
   create_table "users", force: :cascade do |t|
     t.string   "fname"
     t.string   "lname"
     t.string   "email"
     t.string   "type"
-    t.integer  "phone"
+    t.integer  "phone",           limit: 8
     t.integer  "housenum"
     t.string   "street"
     t.string   "town"
@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(version: 20161019175953) do
     t.string   "expmonth"
     t.integer  "expyear"
     t.integer  "cardnum"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
     t.string   "password_digest"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
