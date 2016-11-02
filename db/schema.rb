@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161031051519) do
+ActiveRecord::Schema.define(version: 20161102162029) do
 
   create_table "users", force: :cascade do |t|
     t.string   "fname"
@@ -22,13 +22,11 @@ ActiveRecord::Schema.define(version: 20161031051519) do
     t.string   "street"
     t.string   "town"
     t.string   "state"
-    t.string   "cardtype"
-    t.string   "expmonth"
-    t.integer  "expyear"
     t.integer  "cardnum"
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
     t.string   "password_digest"
+    t.string   "paymentmethod"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
