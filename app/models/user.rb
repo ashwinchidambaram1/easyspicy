@@ -10,7 +10,7 @@ class User < ApplicationRecord
 	validates(:street, presence: true, length: { maximum: 15 })
 	validates(:town, presence: true, length: { maximum: 20 })
 	validates(:state, presence: true, length: { maximum: 20})
-	#validates(:member, presence: true, length: { maximum: 20})
+	validates(:member, presence: true, length: { maximum: 20})
 	validates(:payType, presence:true, length: { maximum: 20} )
 	has_secure_password
 	validates :password, presence: true, length: { minimum: 6 }
