@@ -215,39 +215,13 @@ h3 {
     text-align: center;
 }
 
-.about {
-    color: white;
-    font-size: 50px;
-    height: 75px;
-    margin-left: 12%;
-    display: block;
-    position: relative;
-    width: 400px;
-    background-color: #E8004F;
-    line-height: 100px;
-    margin: auto;
-    margin-top: 20px;
-    
-}
-
 .about_b {
-    height: 930px;
-    width: 650px;
+    height: 575px;
+    width: 1000px;
     float: left;
     background-color: #2A2A2E;
 }
 
-.about p {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    float: left;
-    letter-spacing: 0.10em;
-    margin: auto;
-    margin-left: 50px;
-    margin-top: -10px;
-    font-size: 48px;
-}
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -623,5 +597,47 @@ p {
     border: 3px solid #E8004F;
 }
 
+.missions{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 300;
+    width: 400px;
+    margin-top:  13px;
 
+}
 
+.mission_s{
+    color: white;
+    font-size: 50px;
+    height: 75px;
+    margin-left: 300px;
+    width: 400px;
+    background-color: #E8004F;
+    margin-top: 20px;
+
+}
+.sksdapper{
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+.heart_img{
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.heart_text{
+    height: 180px;
+    margin-top: 20px;
+
+}
+.hearty_texty{
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 300;
+    width: 480px;
+    
+
+}
