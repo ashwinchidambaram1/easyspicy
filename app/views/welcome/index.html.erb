@@ -1,18 +1,19 @@
+<!--  
 <h1>Welcome to Easy Spicy </h1>
 <br />
 <p> Ashwin ON HEROKU AND GITHUB YOOOOOOOO EAT FOOD PLZ WORK</p>
 <p> Sethu </p>
 <p> Arunghghgh </p>
-<!-- <p>Find me in app/views/welcome/index.html.erb</p> -->
+<p>Find me in app/views/welcome/index.html.erb</p>
 
 <% #Comment %> 
-<!--<br /> 
+<br /> 
 <% 11.times do |i| %> 
 	<%= i %> 
 <% end %> 
 
 <br /> 
--->
+
 <% if params.has_key?(:id) && params.has_key?(:var) %>
 	<%= "ID: " + @id.to_s %> <br />
 	<%= "Name: " + @name.to_s %> 
@@ -20,4 +21,161 @@
 <br />
 <br />
 <%= link_to("Go to Sample", 
-	{ :controller => 'welcome', :action => 'sample', :id => 5, :var => "Ashwin"})%> 
+	{ :controller => 'welcome', :action => 'sample', :id => 5, :var => "Ashwin"})%>  
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="UTF-8">
+<title> <%= @title %> </title>
+<%= stylesheet_link_tag "application" %>
+</head>
+<body>
+        
+    <div class="container"> 
+        
+        <div class="header">
+      
+            <div class="navbox">
+                <a href="index.html">
+                <p class="nav_1">
+                    Easy Spicy
+                </p>
+                    </a>
+                </div>
+                
+           
+    
+        </div>
+        <!-- Header Ends -->
+        <div class="main_b1"> 
+            <!-- <h1> Authentic Home Cooked Indian Food </h1>
+            <h2> Welcome to my website </h2>
+            <h2 class="one"> Feel free to explore my website </h2>
+            <h2 class="two"> to learn  more about me and Mass Academy. </h2> -->
+            <div class="plate_holder"> 
+            <!-- <div class="plate_holder2"> -->
+            	<img src="/dish.svg" alt="rss feed" />
+            <!-- </div> -->
+            </div>
+            <div class="fb_main">
+            	<div class="fb_sethu_contain">
+            		<p class="fb_title_p">
+            			Craving home cooked 
+            		</p>
+            		<p class="fb_title_p2">
+            			Indian food?
+            		</p>
+            		<p class="fb_title_p3">
+            			Buy authentic Indian food </br>  from chefs in your local area.
+            		</p>
+            	</div>
+
+            
+            </div>
+        </div>
+        <div class="main_b2"> 
+            <!-- <h1> Authentic Home Cooked Indian Food </h1>
+            <h2> Welcome to my website </h2>
+            <h2 class="one"> Feel free to explore my website </h2>
+            <h2 class="two"> to learn  more about me and Mass Academy. </h2> -->
+            
+            <div class="fb_main2">
+            	<div class="fb_sethu_contain2">
+            		<p class="fb_title_pa">
+            			Have a passion for
+            		</p>
+            		<p class="fb_title_p2a">
+            			cooking?
+            		</p>
+            		<p class="fb_title_p3a">
+            			Woud you like to cook Indian  </br> food for people in your area?
+            		</p>
+            	</div>
+            </div>
+            <div class="plate_holder2"> 
+            <!-- <div class="plate_holder2"> -->
+            	<img src="/pot.svg" alt="cooking pot" />
+            <!-- </div> -->
+            </div>
+
+        </div>
+        <div class="fb_prop">
+        	<div class="center_block">
+        		<p class="ftitle"> 5 Star Food. </br> Without The 5 Star Price. </p>
+        		<div class="rice_contain"> <img src="/rice.svg" alt="cooking pot" /> </div>
+        		<div class="text_contain_f"> <p class="enjoy"> Enjoy authentic Indian meals from the comfort of your own home. A healthy and less expensive alternative to </br> eating at a restaurant. </p> </div>
+        	</div>
+
+        	<div class="left_block">
+        		<p class="ftitle"> Time Is Money. </br> Spend It Wisely. </p>
+        		<div class="rice_contain"> <img src="/circular-clock.svg" alt="cooking pot" /> </div>
+        		<div class="text_contain_f"> <p class="enjoy"> Conveniently search for cooks in your area, and order from them directly through the website. View cooks' menu, prices, and availability. </p> </div>
+        	</div>
+
+        	<div class="right_block">
+        		<p class="ftitle"> Pay Conveniently. </br> Pay Securely. </p>
+        		<div class="rice_contain"> <img src="/credit-card.svg" alt="cooking pot" /> </div>
+        		<div class="text_contain_f"> <p class="enjoy"> Stop searching through your wallet to find the exact amount of money to give to your chef. Easily pay using a credit card through our highly secure platform.</p> </div>
+        	</div>
+
+
+
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="round_pic_hold"> 
+            <div class="circle"><img alt="propic" class="profile_pic" src="Images/cutmypic.png" /> </div> 
+        </div>
+        <div class="about_b"> 
+            <div class="about"> <p> About Me</p> </div>
+            <div class="mine">
+                    <p>  Hi, my name is Ashwin Chidambaram.<br> I was born in Massachusetts and I have been living in Shrewsbury ever since. My sending school is 
+                    <a class="ai" href="http://schools.shrewsbury-ma.gov/">Shrewsbury High</a>. I applied to <a class="ai" href="http://www.massacademy.org/"> Mass Academy</a> because I wanted to attend a STEM focused school. So far, I love the school! If you have any questions, feel free to contact me - my contact info is on the left panel of this section. </p> 
+                <p>  My family consists of me (obviously), my mom, my dad, and my younger brother. Fun fact - my brother's name is Shak (Shakthi shortened informally to Shak). He also plays basketball ! My favorite TV show is Suits. If you don't know what it is, you should probably give it a shot.</p>
+                <p> In my free time, I like to play tennis. I play Varsity tennis for <a class="ai" href="http://schools.shrewsbury-ma.gov/"> Shrewsbury High </a>, and during the off season, I do clinics or hit with my friends. Sometime I play basketball, but my brother is way better than me ! I also like to watch good movies </p>
+            </div>
+        </div>
+        
+        <div class="white_b">
+            <p class="inty"> Name: Ashwin  </p>
+            <p class="inty_2"> Chidambaram </p>
+            <p class="inty"> School: Mass </p>
+             <p class="inty_2"> Academy </p>
+            <p class="inty"> Email: </p>
+             <p class="inty_2"> achidambaram </p>
+            <p class="inty_2"> @wpi.edu </p>
+        </div>
+        <div class="divide"> 
+            <p class="pix"> Pictures </p>
+            <img  alt="child" src="Images/croc.jpg" class="deem" />
+            <img alt="child" src="Images/bros.jpg" class="deeem" />
+        </div>
+        </div>    
+</body>

@@ -13,3 +13,615 @@
  *= require_tree .
  *= require_self
  */
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+body {
+	margin: 0px;
+    background-color: lightgray;
+    width: 100%;
+    padding: 0px;
+}
+.container {
+    width: 1000px;
+    height: 2415px;
+    margin: auto;
+    background-color: #2A2A2E;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    background-color: #E8004F; 
+}
+
+.navbox {
+    height: 75px;
+    order: 1;
+    float: left;
+    margin: auto;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.nav {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.15em;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+    font-size: 25px;
+
+    
+}
+
+ .head_c {
+    
+    height: 50px;
+    width: 857px;
+}
+
+.nav_1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    float: left;
+    letter-spacing: 0.15em;
+    padding-right: 20px;
+    line-height: 40px;
+    font-size: 35px;
+}
+
+.nav_2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.15em;
+    padding-left: 20px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.main_b1 {
+    width: 1000px;
+    height: 500px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+.main_b2 {
+    width: 1000px;
+    height: 500px;
+    background-color: #E8004F;
+    margin: auto;
+}
+
+h1 {
+    color: #2A2A2E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    line-height: 50px;
+    border: 2px solid #0A0033;
+    padding: 20px;
+    float: left;
+    height: 50px;
+    margin-left: auto;
+    font-size: 40px;
+}
+
+h2 {
+     color: #2A2A2E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    line-height: 50px;
+    padding: 20px;
+    float: left;
+    height: 50px;
+    margin-left: 228px;
+    margin-top: -15px;
+    font-size: 35px;
+}
+
+h4 {
+    color: #2A2A2E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    line-height: 50px;
+    padding: 20px;
+    float: left;
+    height: 50px;
+    margin-left: 270px;
+}
+
+h3 {
+    color: #2A2A2E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    line-height: 50px;
+    padding: 20px;
+    float: left;
+    height: 50px;
+    margin-left: 302px;
+    margin-top: -25px;
+}
+
+.one {
+    color: #2A2A2E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    line-height: 50px;
+    padding: 20px;
+    float: left;
+    height: 50px;
+    margin-left: 151px;
+    margin-top: -25px;
+}
+
+.two {
+    color: #2A2A2E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    line-height: 50px;
+    padding: 20px;
+    float: left;
+    height: 50px;
+    margin-left: 19px;
+}
+
+.circle {
+    display: block;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+ .round_pic_hold {
+    height: 350px;
+    width: 350px;
+    background-color: #E8004F;
+    float: left;
+}
+
+.profile_pic {
+    position: relative;
+    display: block;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-top: 2%;
+    margin: auto;
+    text-align: center;
+}
+
+.about {
+    color: white;
+    font-size: 50px;
+    height: 75px;
+    margin-left: 12%;
+    display: block;
+    position: relative;
+    width: 400px;
+    background-color: #E8004F;
+    line-height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.about_b {
+    height: 930px;
+    width: 650px;
+    float: left;
+    background-color: #2A2A2E;
+}
+
+.about p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    float: left;
+    letter-spacing: 0.10em;
+    color: white;
+    font-size: 24px;
+}
+
+.ai {
+    text-decoration-color: white;
+    color: white;
+}
+
+.mine {
+    width: 600px;
+    margin-left: 30px;
+}
+
+.white_b {
+    height: 580px;
+    width: 350px;
+    float: left;
+    background-color: white;
+    margin-top: -580px;
+}
+
+.inty {
+    color: black;
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.inty_2 {
+     color: black;
+    font-size: 36px;
+    margin-left: 10px;
+    margin-top: -40px;
+}
+
+.divide {
+    width: 1000px;
+    height: 90px;
+    background-color: #E8004F;
+    margin-top: 930px;
+}
+
+.pix {
+    font-size: 50px;
+    display: block;
+    margin-top: -5px;
+    line-height: 2;
+    margin-left: 377px;
+}
+
+.deem {
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    margin-top: -55px;
+}
+
+.deeem {
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+.title {
+    font-size: 100px;
+    color: white;
+    margin-left: 100px;
+}
+
+.taught {
+    font-size: 30px;
+    color: white;
+    margin-left: 100px;
+    margin-top: -80px
+}
+
+.nu_divide {
+    height: 5px;
+    width: 900px;
+    background-color: #E8004F;
+    margin-left: 50px;
+    
+}
+
+.summary {
+    font-size: 30px;
+    color: white;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.pcont {
+    width: 800px;
+    margin-left: 100px;
+}
+
+.nusum {
+    font-size: 30px;
+    background-color: #E8004F;
+    color: white;
+    margin-left: 0px;
+    margin-top: 5px
+}
+
+.files {
+    font-size: 30px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 30px
+}
+
+.summary1 {
+    font-size: 30px;
+    color: white;
+    margin-left: 0px;
+    margin-top: -10px;
+    float: left;
+}
+
+.summary2 {
+    font-size: 30px;
+    color: white;
+    margin-left: -485px;
+    margin-top: 30px;
+    float: left;
+}
+
+.summary3 {
+    font-size: 30px;
+    color: white;
+    margin-left: -340px;
+    margin-top: 50px;
+    float: left;
+}
+
+.summary4 {
+    font-size: 30px;
+    color: white;
+    margin-left: -340px;
+    margin-top: 100px;
+    float: left;
+}
+
+.summary5 {
+    font-size: 30px;
+    color: white;
+    margin-left: -340px;
+    margin-top: 50px;
+    float: left;
+}
+
+.summary6 {
+     font-size: 30px;
+    color: white;
+    margin-left: -340px;
+    margin-top: 100px;
+    float: left;
+}
+
+.container1 {
+    width: 1000px;
+    height: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #2A2A2E;
+}
+
+.plate_holder{
+	float: left;
+	width: 350px;
+	margin-left: 25px;
+	padding-top: 75px;
+}
+
+.plate_holder2{
+	float: left;
+	width: 350px;
+	margin-right: 25px;
+	padding-top: 75px;
+	
+}
+
+.fb_main{
+	float: left;
+	height: 500px;
+	width: 625px;
+	background-color: white;
+}
+.fb_main2{
+	float: left;
+	height: 500px;
+	width: 625px;
+	background-color: #E8004F;
+}
+.fb_title_p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-left: 10px;
+	margin-top: 50px;
+	font-size: 40px; 
+	color: white;
+
+}
+.fb_title_p2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-left: 130px;
+	margin-top: -35px;
+	font-size: 40px; 
+	color: white;
+
+}
+.fb_title_p3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	margin-left: 115px;
+	margin-top: 0px;
+	font-size: 20px;
+	color: white;
+
+}
+.fb_title_pa{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-left: 10px;
+	margin-top: 50px;
+	font-size: 40px; 
+	color: #E8004F;
+
+}
+.fb_title_p2a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-left: 130px;
+	margin-top: -35px;
+	font-size: 40px; 
+	color: #E8004F;
+
+}
+.fb_title_p3a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	margin-left: 115px;
+	margin-top: 0px;
+	font-size: 20px;
+	color: #E8004F;
+
+}
+.fb_sethu_contain{
+	background-color: #E8004F;
+	float: right;
+	width: 500px;
+	height: 300px;
+	margin-top: 90px;
+	padding-left: 20px;
+	padding-right:  20px;
+}
+.fb_sethu_contain2{
+	background-color: #FFFFFF;
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-top: 90px;
+	padding-left: 20px;
+	padding-right:  20px;
+	
+}
+
+.fb_prop{
+    height: 935px;
+    width: 1000px;
+    background-color: white;   
+
+
+}
+
+.center_block{
+    background-color: white;
+    width: 480px;
+    margin-left: 260px;
+    float: left;
+    height: 440px;
+    margin-top: 15px; 
+    border: 3px solid #E8004F;
+}
+.ftitle{
+    text-align: center;
+    width: 480px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #E8004F;
+    margin-top: 10px;
+}
+.rice_contain{
+    height: 150px;
+    width: 150px;
+    margin-left: 165px;
+}
+.text_contain_f{
+    width: 480px;
+    background-color: #E8004F;
+    height: 180px;
+    margin-top: 110px;
+
+}
+.enjoy {
+    width: 480px;
+    text-align: center;
+    color: white;
+    margin-top: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+
+}
+
+
+
+
+.left_block{
+    background-color: white;
+    width: 480px;
+    margin-left: 10px;
+    float: left;
+    height: 440px;
+    margin-top: 15px; 
+    border: 3px solid #E8004F;
+}
+.ftitle{
+    text-align: center;
+    width: 480px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #E8004F;
+    margin-top: 10px;
+}
+.rice_contain{
+    height: 150px;
+    width: 150px;
+    margin-left: 165px;
+}
+.text_contain_f{
+    width: 480px;
+    background-color: #E8004F;
+    height: 180px;
+    margin-top: 110px;
+
+}
+.enjoy {
+    width: 480px;
+    text-align: center;
+    color: white;
+    margin-top: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+
+}
+
+.right_block{
+    background-color: white;
+    width: 480px;
+    margin-left: 10px;
+    float: left;
+    height: 440px;
+    margin-top: 15px; 
+    border: 3px solid #E8004F;
+}
+
+
+

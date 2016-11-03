@@ -5,6 +5,7 @@ class WelcomeController < ApplicationController
   		@name = params[:var]
   		@name2 = params[:name2]
   		@name3 = params[:name3]
+      @title = "Ashwin Chidambaram | Home";
 
   	end
   end
