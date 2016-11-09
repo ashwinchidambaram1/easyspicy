@@ -20,8 +20,7 @@
 <% end %> 
 <br />
 <br />
-<%= link_to("Go to Sample", 
-	{ :controller => 'welcome', :action => 'sample', :id => 5, :var => "Ashwin"})%>  
+
 -->
 
 <!DOCTYPE html>
@@ -38,12 +37,14 @@
         <div class="header">
       
             <div class="navbox">
-                <a href="index.html">
+                <%= link_to(controller: "welcome", action: "index") do%>
                 <p class="nav_1">
                     Easy Spicy
                 </p>
-                    </a>
+                    <!-- </a> -->
                 </div>
+                <% end %>
+          
                 
            
     
@@ -53,7 +54,7 @@
             <!-- <h1> Authentic Home Cooked Indian Food </h1>
             <h2> Welcome to my website </h2>
             <h2 class="one"> Feel free to explore my website </h2>
-            <h2 class="two"> to learn  more about me and Mass Academy. </h2> -->
+            <h2 class="two"> to learn  more about me and Mass Academy. </h2> color: #D10F3A -->
             <div class="plate_holder"> 
             <!-- <div class="plate_holder2"> -->
             	<img src="/dish.svg" alt="rss feed" />
@@ -132,6 +133,7 @@
             	<div class="heart_img"> <img src="/heart.svg" alt="cooking pot" /> </div>
             	<div class="heart_text"> <p class= "hearty_texty"> Our goal is to provide a healthier and cheaper alternative to restaraunts for those who </br> don't  have the time or </br> knowledge to cook Indian food themselves. </p> </div>
             </div>  
+
             <div class="sksdapper"> 
             	<div class="heart_img"> <img src="/india.svg" alt="cooking pot" /> </div>
             	<div class="heart_text"> <p class= "hearty_texty"> We are striving to create a platform that connects Indians Americans through something</br> that we all love: Authentic Indian Food.

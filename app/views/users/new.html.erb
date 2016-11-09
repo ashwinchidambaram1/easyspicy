@@ -1,0 +1,54 @@
+<% provide(:title, 'Sign up') %>
+
+<div class="container"> 
+        
+        <div class="header">
+      
+            <div class="navbox"> 
+                <%= link_to(controller: "welcome", action: "index") do %>
+                <p class="nav_1">
+                    Easy Spicy
+                </p>
+                </div>
+                <% end %>
+        </div>
+    <img class="nice_food_contain" src="/food_wallpaper.jpg" alt="rss feed" />
+   
+<div class="row">
+    <%= form_for(@user, url: signup_path) do |f| %>
+    <%= render 'shared/error_messages' %>
+    
+      <%= f.label :fname, "First Name" %>
+      <%= f.text_field :fname,  class: 'form-control' %>
+     
+      <%= f.label :lname, "Last Name" %>
+      <%= f.text_field :lname,  class: 'form-control'%>
+
+      <%= f.label :email %>
+      <%= f.email_field :email,  class: 'form-control'%>
+      
+      <%= f.label :phone, "10 Digit Phone Number"%>
+      <%= f.text_field :phone,  class: 'form-control'%>
+
+      </br>
+      <p class="member_type"> Member Type</p>
+      <%= f.select(:member, options_for_select([['Cook', 'Cook'],['Food buyer', 'Food buyer']]),  class: 'form-control') %>
+    
+      <!-- <p class="member_type"> Payment Type</p>    
+      <%= f.select(:payType, options_for_select([['Checks', 'Checks'],['PayPal', 'PayPal']])) %> -->
+        
+      </br>
+
+      <%= f.label :password, "Password"%>
+      <%= f.password_field :password,  class: 'form-control'%>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation,  class: 'form-control'%>
+
+    
+    
+    <%= f.submit "Create my account", class: "createor" %>
+    <% end %>
+</div>
+
+</div>

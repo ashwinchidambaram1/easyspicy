@@ -1,3 +1,7 @@
+
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -33,7 +37,7 @@ body {
 .header {
     height: 75px;
     width: 100%;
-    background-color: #E8004F; 
+    background-color: #D10F3A; 
 }
 
 .navbox {
@@ -67,13 +71,14 @@ body {
 
 .nav_1 {
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     float: left;
     letter-spacing: 0.15em;
     padding-right: 20px;
     line-height: 40px;
     font-size: 35px;
+    font-weight: 300;
 }
 
 .nav_2 {
@@ -96,7 +101,7 @@ body {
 .main_b2 {
     width: 1000px;
     height: 500px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     margin: auto;
 }
 
@@ -200,7 +205,7 @@ h3 {
  .round_pic_hold {
     height: 350px;
     width: 350px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     float: left;
 }
 
@@ -266,7 +271,7 @@ p {
 .divide {
     width: 1000px;
     height: 90px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     margin-top: 930px;
 }
 
@@ -309,7 +314,7 @@ p {
 .nu_divide {
     height: 5px;
     width: 900px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     margin-left: 50px;
     
 }
@@ -328,7 +333,7 @@ p {
 
 .nusum {
     font-size: 30px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     color: white;
     margin-left: 0px;
     margin-top: 5px
@@ -422,7 +427,7 @@ p {
 	float: left;
 	height: 500px;
 	width: 625px;
-	background-color: #E8004F;
+	background-color: #D10F3A;
 }
 .fb_title_p{
 	font-family: 'Raleway', sans-serif;
@@ -457,7 +462,7 @@ p {
 	margin-left: 10px;
 	margin-top: 50px;
 	font-size: 40px; 
-	color: #E8004F;
+	color: #D10F3A;
 
 }
 .fb_title_p2a{
@@ -466,7 +471,7 @@ p {
 	margin-left: 130px;
 	margin-top: -35px;
 	font-size: 40px; 
-	color: #E8004F;
+	color: #D10F3A;
 
 }
 .fb_title_p3a{
@@ -475,11 +480,11 @@ p {
 	margin-left: 115px;
 	margin-top: 0px;
 	font-size: 20px;
-	color: #E8004F;
+	color: #D10F3A;
 
 }
 .fb_sethu_contain{
-	background-color: #E8004F;
+	background-color: #D10F3A;
 	float: right;
 	width: 500px;
 	height: 300px;
@@ -513,14 +518,14 @@ p {
     float: left;
     height: 440px;
     margin-top: 15px; 
-    border: 3px solid #E8004F;
+    border: 3px solid #D10F3A;
 }
 .ftitle{
     text-align: center;
     width: 480px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #E8004F;
+    color: #D10F3A;
     margin-top: 10px;
 }
 .rice_contain{
@@ -530,7 +535,7 @@ p {
 }
 .text_contain_f{
     width: 480px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     height: 180px;
     margin-top: 110px;
 
@@ -555,14 +560,14 @@ p {
     float: left;
     height: 440px;
     margin-top: 15px; 
-    border: 3px solid #E8004F;
+    border: 3px solid #D10F3A;
 }
 .ftitle{
     text-align: center;
     width: 480px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #E8004F;
+    color: #D10F3A;
     margin-top: 10px;
 }
 .rice_contain{
@@ -572,7 +577,7 @@ p {
 }
 .text_contain_f{
     width: 480px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     height: 180px;
     margin-top: 110px;
 
@@ -594,7 +599,7 @@ p {
     float: left;
     height: 440px;
     margin-top: 15px; 
-    border: 3px solid #E8004F;
+    border: 3px solid #D10F3A;
 }
 
 .missions{
@@ -613,7 +618,7 @@ p {
     height: 75px;
     margin-left: 300px;
     width: 400px;
-    background-color: #E8004F;
+    background-color: #D10F3A;
     margin-top: 20px;
 
 }
@@ -638,6 +643,155 @@ p {
     font-family: "Raleway";
     font-weight: 300;
     width: 480px;
-    
+
 
 }
+
+
+/*Stuff from Tutorial */
+
+textarea {
+  resize: vertical;
+
+}
+
+/* forms */
+input, textarea, select, .uneditable-input {
+  border: 0px solid green;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+input {
+  //height: auto !important;
+  color: black;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 40px;
+  margin-top: 2px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  outline: #D10F3A; 
+}
+
+
+
+.row {
+    background-color:  #D10F3A;
+    float: right;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 580px;
+}
+
+.nice_food_contain {
+    max-width: 630px;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+//selection box
+
+select {
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+    height: 40px;
+	cursor: pointer;
+	color: black;
+	border: 0;
+	border-radius: 0;
+	outline: 0;
+	background: #e6e6e6;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-top: -10px;
+    background-image: url('/down-arrow.svg');
+    background-position: 260px 15px; 
+    background-repeat: no-repeat;
+    background-size: 30px 18px;
+}
+
+select:hover,
+ {
+	color:  black;
+	background:  white;
+    background-image: url('/down-arrow.svg');
+    background-position: 260px 15px; 
+    background-repeat: no-repeat;
+    background-size: 30px 18px;
+
+}
+
+
+.createor{
+    background-color: white; /* Green */
+    border: none;
+    color: #D10F3A;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px; 
+    height: 60px;
+    line-height: 13px;
+    font-weight: 300;
+    margin-top: 30px;
+    width: 340px;
+    margin-left: -20px;
+     transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition:  .25s ease-in-out;
+}
+.createor:hover{
+    background-color: #21D100; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px; 
+    height: 60px;
+    line-height: 13px;
+    font-weight: 300;
+    margin-top: 30px;
+    width: 340px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.member_type {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 0px;
+}
+/* error handling
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
+  }
+} */
+
