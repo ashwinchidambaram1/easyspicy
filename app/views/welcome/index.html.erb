@@ -44,6 +44,13 @@
                     <!-- </a> -->
                 </div>
                 <% end %>
+
+        <% if logged_in? %>
+          <%= link_to "Profile", user_path(current_user) %>
+          <%= link_to "Log out", logout_path, method: :delete %>
+          <% else %> 
+          <%= link_to "Signup", login_path
+          <% end %>
           
                 
            
