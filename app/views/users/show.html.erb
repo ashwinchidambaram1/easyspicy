@@ -6,4 +6,11 @@
           <%= @user.lname %>
           <%= @user.member %>
       </h1>
+
+
+
+    <%= link_to "Users", stub %>
+  	<%= link_to "Settings", stub %>
+  	<%= link_to "Log out", logout_path, method: :delete %>
+  	<%= link_to "Profile", current_user %>
 </div>
