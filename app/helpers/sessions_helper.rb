@@ -15,8 +15,7 @@ module SessionsHelper
   	end
 
 
-  	<%= link_to "Users", stub %>
-  	<%= link_to "Settings", stub %>
+  	
 	
 
 end
