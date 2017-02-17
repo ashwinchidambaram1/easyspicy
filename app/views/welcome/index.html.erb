@@ -46,7 +46,7 @@
                 <% end %>
 
           <% if logged_in? %>
-          <%= link_to "Profile", user_path(current_user) %>
+            <%= link_to "Profile", user_path(current_user), class: 'profile_link' %>
           <%= link_to "Log out", logout_path, method: :delete %>
           <% else %> 
           <%= link_to "Login (Chefs Only)", login_path %>
