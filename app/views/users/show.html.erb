@@ -1,25 +1,30 @@
 <% provide(:title, @user.email) %>
 <div class="container"> 
 
-  <div class="header">
+ <div class="header">
       
-            <div class="navbox"> 
-                <%= link_to(controller: "welcome", action: "index") do %>
+            <div class="navbox">
+                <%= link_to(controller: "welcome", action: "index") do%>
                 <p class="nav_1">
                     Easy Spicy
-               </p>
+                </p>
+                    <!-- </a> -->
                 </div>
                 <% end %>
 
-
           <% if logged_in? %>
-          <%= link_to "Profile", user_path(current_user) %>
-          <%= link_to "Log out", logout_path, method: :delete %>
-          <% else %> 
-          <%= link_to "Login (Chefs Only)" , login_path %>
-          <%= link_to "Signup" , signup_path %>
+            <div class = "elseholde">
+          <%= link_to "Profile", user_path(current_user), class: 'profile_link' %>
+         <%= link_to "Log out", logout_path, method: :delete, class: 'profile_link'%>
+            </div>
+          <% else %>
+            <div class = "elseholde">
+            <%= link_to "Login", login_path, class: 'profile_link'%>
+            <%= link_to "Sign Up", signup_path, class: 'profile_link' %>
+                </div>
           <% end %>
-  </div>
+          
+        </div>
       <h1>
           <%= @user.email %>
           <%= @user.fname %>

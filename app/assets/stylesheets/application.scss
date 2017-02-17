@@ -725,7 +725,7 @@ select {
     background-size: 30px 18px;
 }
 
-select:hover,
+select:hover
  {
 	color:  black;
 	background:  white;
@@ -770,6 +770,9 @@ select:hover,
     width: 340px;
     margin-left: -20px;
     cursor: pointer;
+     transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition:  .25s ease-in-out;
 }
 
 .member_type {
@@ -777,6 +780,7 @@ select:hover,
     font-weight: 300;
     font-size: 15px;
     margin-top: 0px;
+    
 }
 /* error handling
 
@@ -795,5 +799,38 @@ select:hover,
   }
 } */
 .profile_link{
-    color: blue;
+    color: white;
+    text-decoration: none;
+    background-color: none/*#7F0618*/;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin-top: 18px;
+    float: left;
+     transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition:  .25s ease-in-out;
+    margin-left: 10px;
+    
+}
+
+.profile_link:hover{
+    color: #7F0618;
+    text-decoration: none;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    float: left;
+     transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition:  .25s ease-in-out;
+}
+
+
+
+.elseholde {
+    height: 75px;
+    background-color: none;
+    float: left;
+    margin-left: 540px;
+ 
 }
